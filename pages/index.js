@@ -15,7 +15,7 @@ export default function Home() {
           Welcome to DinoDex
         </h1>
         <h2 className={styles.h2}>Rules</h2>
-        <p className={styles.description}>Wen you draw the cards by pressing the new game button on top, you wil be assigned 4 random dinosaurs. The team with the most amount of experience in attack and defence, wins!!</p>
+        <p className={styles.description}>When you draw the cards by pressing the new game button on top, you wil be assigned 4 random dinosaurs. The team with the most amount of experience in attack and defence, wins!!</p>
         <div className={styles.container}>
           <img className="object-fill" src="./images/homepage.jpg" alt="t-rex" />
         </div> 

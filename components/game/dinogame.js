@@ -5,7 +5,7 @@ import Dinodex from './dinodex'
 class Dinogame extends Component {
     static defaultProps = {
         dinosaur : [
-            {id: 1, name: 'Allosaurus', type: 'carnivorous', base_experience: 87, base_defence: 84, imageUrl:'./images/dinosaurs/allosaurus.jpg'},
+            {id: 1, name: 'Allosaurus', type: 'carnivorous', base_experience: 87, base_defence: 84, imageUrl:'../../images/dinosaurs/allosaurus.jpg'},
             {id: 2, name: 'Brachiosaurus', type: 'herbivorous', base_experience: 63, base_defence: 180, imageUrl:'./images/dinosaurs/Brachiosaurus.jpg'},
             {id: 3, name: 'Spinosaurus', type: 'carnivorous', base_experience: 130, base_defence: 94, imageUrl:'./images/dinosaurs/spinosaurus.jpeg'},
             {id: 4, name: 'Tyrannosaurus Rex', type: 'carnivorous', base_experience: 178, base_defence: 166, imageUrl:'./images/dinosaurs/trex.jpeg'},
