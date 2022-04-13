@@ -45,6 +45,16 @@
   font-size: 4rem;
 }
 
+.h2 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.h2:hover{
+  font-size: 3rem;
+}
+
 .title,
 .description {
   text-align: center;
