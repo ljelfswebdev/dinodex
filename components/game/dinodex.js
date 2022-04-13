@@ -15,7 +15,7 @@ class Dinodex extends Component {
                <h4>Total experience: {this.props.exp}</h4>
                <div className="Dinodex-cards">
                     {this.props.dinosaur.map((d) => (
-                        <Dinocard id={d.id} name={d.name} type={d.type} exp={d.base_experience+d.base_defence} key={d.id}/>
+                        <Dinocard id={d.id} name={d.name} type={d.type} imageUrl={d.imageUrl} exp={d.base_experience+d.base_defence} key={d.id}/>
                     ))}
                </div>
                

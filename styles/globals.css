@@ -40,6 +40,10 @@ footer {
   border-radius: 3px;
 }
 
+.Dinocard-title {
+  font-weight:900;
+}
+
 .Dinocard-data {
   font-size:80%;
   
@@ -48,6 +52,15 @@ footer {
 .Dinocard:hover {
   transform: scale(1.1);
   opacity: 0.7;
+}
+
+.Dinocard-image{
+  width:100px;
+  height:100px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  display:inline;
 }
 
 /*dinodex*/
@@ -63,9 +76,13 @@ footer {
 }
 .Dinodex-winner {
   color: #4caf50;
+  font-weight: 800;
+  font-size:x-large;
 }
 
 .Dinodex-loser{
   color: #e91e63;
+  font-weight: 800;
+  font-size: x-large;
 }
 
